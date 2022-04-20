@@ -1,3 +1,9 @@
+## To test with the best SAC model
+
+```
+python manipulation_main/training/train_stable_baselines.py run --model trained_models/SAC_depth_1mbuffer/best_model/best_model.zip -v -t
+```
+
 # Deep Reinforcement Learning on Robotics Grasping
 Train robotics model with integrated curriculum learning-based gripper environment. Choose from different perception layers depth, RGB-D. Run pretrained models with SAC, BDQ and DQN algorithms. Test trained algorithms in different scenes and domains. 
 
