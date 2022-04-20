@@ -7,19 +7,20 @@ setup(
         'stable-baselines',
         'tensorflow<1.15.0'
         'autopep8',
-        'gym',
+        'gym==0.15.7',
         'keras==2.2.4',
         'matplotlib',
         'numpy==1.18',
         'opencv-contrib-python',
         'pandas',
-        'pybullet==2.6.4',
         'pytest',
         'pydot',
-        'PyYAML',
+        'PyYAML==5.4.1',
         'seaborn',
         'scikit-learn',
         'tqdm',
         'paramiko',
+        'pybullet',
+        'numba'
     ],
 )
